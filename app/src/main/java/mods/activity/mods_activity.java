@@ -135,6 +135,7 @@ public class mods_activity extends AppCompatActivity {
             add_mods.putExtra("id_user", id_user);
             add_mods.putExtra("pwd", pwd);
             startActivity(add_mods);
+			finish();
         });
 
 

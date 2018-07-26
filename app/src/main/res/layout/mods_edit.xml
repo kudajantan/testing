@@ -1,0 +1,1295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <include
+            layout="@layout/toolbar_caption_with_button"
+            android:layout_width="match_parent"
+            android:layout_height="?android:attr/actionBarSize"
+            android:background="@color/white" />
+
+
+    </android.support.design.widget.AppBarLayout>
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        android:layout_marginTop="?android:attr/actionBarSize"
+        android:layout_height="match_parent">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1.5dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:background="@color/divider" />
+    </RelativeLayout>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_marginTop="60dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<LinearLayout
+
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:background="@color/white">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/textsub"
+        android:text="Petugas I :"/>
+
+    <AutoCompleteTextView
+        android:hint="Ketikan 3 Huruf"
+        android:id="@+id/nama_petugas_satu"
+        android:textSize="@dimen/textsub"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/textsub"
+        android:text="Petugas II :"/>
+
+    <AutoCompleteTextView
+        android:hint="Ketikan 3 Huruf"
+        android:id="@+id/nama_petugas_dua"
+        android:textSize="@dimen/textsub"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/textsub"
+        android:text="Shift :"/>
+
+    <Spinner
+        android:id="@+id/spinner_shift"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingEnd="10dp"
+        android:paddingStart="6dip"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        style="@style/Widget.AppCompat.Spinner.Underlined" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:padding="6dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorBlue"
+        android:layout_marginBottom="10dp"
+        android:text="INFO TRAFFIC dan ON DUTY TEAM"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1.5dp"
+        android:layout_marginTop="-10dp"
+        android:layout_marginBottom="16dp"
+        android:background="@color/divider" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:padding="6dp"
+        android:textColor="@color/colorCyan"
+        android:layout_marginBottom="10dp"
+        android:text="VEHICLE"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1.5dp"
+        android:layout_marginTop="-10dp"
+        android:layout_marginBottom="16dp"
+        android:background="@color/divider" />
+
+
+
+    <LinearLayout
+        android:baselineAligned="false"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        android:layout_width="0dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="textEnd"
+            android:textSize="@dimen/textsub"
+            android:text="Mobil"/>
+
+        <EditText
+            android:id="@+id/mobil"
+            android:hint="@null"
+            android:inputType="number"
+            android:textSize="@dimen/textsub"
+            android:textAlignment="textEnd"
+            android:layout_width="match_parent"
+            android:layout_height="40dp" />
+
+    </LinearLayout>
+
+        <LinearLayout
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        android:layout_width="0dp"
+        android:layout_weight="1" >
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="textEnd"
+            android:textSize="@dimen/textsub"
+            android:text="Valet"/>
+
+
+        <EditText
+            android:id="@+id/valet"
+            android:hint="@null"
+            android:inputType="number"
+            android:textAlignment="textEnd"
+            android:layout_width="match_parent"
+            android:textSize="@dimen/textsub"
+            android:layout_height="40dp" />
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:baselineAligned="false"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="textEnd"
+                android:textSize="@dimen/textsub"
+                android:text="Motor"/>
+
+            <EditText
+                android:id="@+id/motor"
+                android:hint="@null"
+                android:inputType="number"
+                android:textAlignment="textEnd"
+                android:layout_width="match_parent"
+                android:textSize="@dimen/textsub"
+                android:layout_height="40dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="1" >
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="textEnd"
+                android:textSize="@dimen/textsub"
+                android:text="Taxi"/>
+
+
+            <EditText
+                android:id="@+id/taxi"
+                android:hint="@null"
+                android:inputType="number"
+                android:textAlignment="textEnd"
+                android:layout_width="match_parent"
+                android:textSize="@dimen/textsub"
+                android:layout_height="40dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="textEnd"
+                android:textSize="@dimen/textsub"
+                android:text="Mobil Box"/>
+
+
+            <EditText
+                android:inputType="number"
+                android:hint="@null"
+                android:id="@+id/mobil_box"
+                android:textAlignment="textEnd"
+                android:layout_width="match_parent"
+                android:textSize="@dimen/textsub"
+                android:layout_height="40dp" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:padding="6dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorBlueDark"
+        android:layout_marginBottom="10dp"
+        android:text="MAN POWER"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1.5dp"
+        android:layout_marginTop="-10dp"
+        android:layout_marginBottom="16dp"
+        android:background="@color/divider" />
+
+
+    <LinearLayout
+        android:baselineAligned="false"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/textsub"
+                android:text="Security Office"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="1" >
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/textsub"
+                android:textAlignment="textEnd"
+                android:text="Plan"/>
+
+
+            <EditText
+                android:id="@+id/sec_office_plan"
+                android:hint="@null"
+                android:inputType="number"
+                android:textSize="@dimen/textsub"
+                android:textAlignment="textEnd"
+                android:layout_width="match_parent"
+                android:layout_height="40dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+            <TextView
+                android:textSize="@dimen/textsub"
+                android:textAlignment="textEnd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Actual"/>
+
+
+            <EditText
+                android:inputType="number"
+                android:textSize="@dimen/textsub"
+                android:hint="@null"
+                android:id="@+id/sec_office_actual"
+                android:textAlignment="textEnd"
+                android:layout_width="match_parent"
+                android:layout_height="40dp" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:baselineAligned="false"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/textsub"
+                android:text="Security Mall"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="1" >
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/textsub"
+                android:textAlignment="textEnd"
+                android:text="Plan"/>
+
+
+            <EditText
+                android:id="@+id/sec_mall_plan"
+                android:inputType="number"
+                android:hint="@null"
+                android:textAlignment="textEnd"
+                android:textSize="@dimen/textsub"
+                android:layout_width="match_parent"
+                android:layout_height="40dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+            <TextView
+                android:textSize="@dimen/textsub"
+                android:textAlignment="textEnd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Actual"/>
+
+
+            <EditText
+                android:inputType="number"
+                android:hint="@null"
+                android:id="@+id/sec_mall_actual"
+                android:textAlignment="textEnd"
+                android:textSize="@dimen/textsub"
+                android:layout_width="match_parent"
+                android:layout_height="40dp" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:baselineAligned="false"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/textsub"
+                android:text="Security Kawasan"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="1" >
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/textsub"
+                android:textAlignment="textEnd"
+                android:text="Plan"/>
+
+
+            <EditText
+                android:id="@+id/sec_kawasan_plan"
+                android:hint="@null"
+                android:inputType="number"
+                android:textAlignment="textEnd"
+                android:layout_width="match_parent"
+                android:textSize="@dimen/textsub"
+                android:layout_height="40dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+            <TextView
+                android:textSize="@dimen/textsub"
+                android:textAlignment="textEnd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Actual"/>
+
+
+            <EditText
+                android:inputType="number"
+                android:hint="@null"
+                android:id="@+id/sec_kawasan_actual"
+                android:textAlignment="textEnd"
+                android:layout_width="match_parent"
+                android:textSize="@dimen/textsub"
+                android:layout_height="40dp" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:baselineAligned="false"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/textsub"
+                android:text="CS/Doorman Team"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="1" >
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/textsub"
+                android:textAlignment="textEnd"
+                android:text="Plan"/>
+
+
+            <EditText
+                android:id="@+id/cs_doorman_team_plan"
+                android:inputType="number"
+                android:hint="@null"
+                android:textAlignment="textEnd"
+                android:layout_width="match_parent"
+                android:textSize="@dimen/textsub"
+                android:layout_height="40dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+            <TextView
+                android:textSize="@dimen/textsub"
+                android:textAlignment="textEnd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Actual"/>
+
+
+            <EditText
+                android:inputType="number"
+                android:hint="@null"
+                android:id="@+id/cs_doorman_team_actual"
+                android:textAlignment="textEnd"
+                android:layout_width="match_parent"
+                android:textSize="@dimen/textsub"
+                android:layout_height="40dp" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:baselineAligned="false"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/textsub"
+                android:text="Parking Team"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="1" >
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/textsub"
+                android:textAlignment="textEnd"
+                android:text="Plan"/>
+
+
+            <EditText
+                android:id="@+id/parking_team_plan"
+                android:inputType="number"
+                android:hint="@null"
+                android:textAlignment="textEnd"
+                android:layout_width="match_parent"
+                android:textSize="@dimen/textsub"
+                android:layout_height="40dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+            <TextView
+                android:textSize="@dimen/textsub"
+                android:textAlignment="textEnd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Actual"/>
+
+
+            <EditText
+                android:inputType="number"
+                android:hint="@null"
+                android:id="@+id/parking_team_actual"
+                android:textAlignment="textEnd"
+                android:layout_width="match_parent"
+                android:textSize="@dimen/textsub"
+                android:layout_height="40dp" />
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:baselineAligned="false"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/textsub"
+                android:text="Vallet Team"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="1" >
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/textsub"
+                android:textAlignment="textEnd"
+                android:text="Plan"/>
+
+
+            <EditText
+                android:id="@+id/vallet_team_plan"
+                android:hint="@null"
+                android:inputType="number"
+                android:textAlignment="textEnd"
+                android:textSize="@dimen/textsub"
+                android:layout_width="match_parent"
+                android:layout_height="40dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+            <TextView
+                android:textSize="@dimen/textsub"
+                android:textAlignment="textEnd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Actual"/>
+
+
+            <EditText
+                android:inputType="number"
+                android:hint="@null"
+                android:id="@+id/vallet_team_actual"
+                android:textAlignment="textEnd"
+                android:layout_width="match_parent"
+                android:textSize="@dimen/textsub"
+                android:layout_height="40dp" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:baselineAligned="false"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/textsub"
+                android:text="Engineering Team"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="1" >
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/textsub"
+                android:textAlignment="textEnd"
+                android:text="Plan"/>
+
+
+            <EditText
+                android:id="@+id/eng_team_plan"
+                android:hint="@null"
+                android:inputType="number"
+                android:textAlignment="textEnd"
+                android:layout_width="match_parent"
+                android:textSize="@dimen/textsub"
+                android:layout_height="40dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+            <TextView
+                android:textSize="@dimen/textsub"
+                android:textAlignment="textEnd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Actual"/>
+
+
+            <EditText
+                android:inputType="number"
+                android:hint="@null"
+                android:id="@+id/eng_team_actual"
+                android:textAlignment="textEnd"
+                android:layout_width="match_parent"
+                android:textSize="@dimen/textsub"
+                android:layout_height="40dp" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:baselineAligned="false"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/textsub"
+                android:text="Cleaning Service Office"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="1" >
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/textsub"
+                android:textAlignment="textEnd"
+                android:text="Plan"/>
+
+
+            <EditText
+                android:id="@+id/cso_plan"
+                android:hint="@null"
+                android:inputType="number"
+                android:textAlignment="textEnd"
+                android:layout_width="match_parent"
+                android:textSize="@dimen/textsub"
+                android:layout_height="40dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+            <TextView
+                android:textSize="@dimen/textsub"
+                android:textAlignment="textEnd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Actual"/>
+
+
+            <EditText
+                android:inputType="number"
+                android:hint="@null"
+                android:id="@+id/cso_actual"
+                android:textAlignment="textEnd"
+                android:layout_width="match_parent"
+                android:textSize="@dimen/textsub"
+                android:layout_height="40dp" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:baselineAligned="false"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/textsub"
+                android:text="Cleaning Service Mall"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="1" >
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/textsub"
+                android:textAlignment="textEnd"
+                android:text="Plan"/>
+
+
+            <EditText
+                android:id="@+id/csm_plan"
+                android:hint="@null"
+                android:inputType="number"
+                android:textAlignment="textEnd"
+                android:layout_width="match_parent"
+                android:textSize="@dimen/textsub"
+                android:layout_height="40dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+            <TextView
+                android:textSize="@dimen/textsub"
+                android:textAlignment="textEnd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Actual"/>
+
+
+            <EditText
+                android:inputType="number"
+                android:hint="@null"
+                android:id="@+id/csm_actual"
+                android:textAlignment="textEnd"
+                android:layout_width="match_parent"
+                android:textSize="@dimen/textsub"
+                android:layout_height="40dp" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:baselineAligned="false"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/textsub"
+                android:text="Garbage Room Team"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="1" >
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/textsub"
+                android:textAlignment="textEnd"
+                android:text="Plan"/>
+
+
+            <EditText
+                android:id="@+id/gro_team_plan"
+                android:hint="@null"
+                android:inputType="number"
+                android:textAlignment="textEnd"
+                android:layout_width="match_parent"
+                android:textSize="@dimen/textsub"
+                android:layout_height="40dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+            <TextView
+                android:textSize="@dimen/textsub"
+                android:textAlignment="textEnd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Actual"/>
+
+
+            <EditText
+                android:inputType="number"
+                android:hint="@null"
+                android:id="@+id/gro_team_actual"
+                android:textAlignment="textEnd"
+                android:layout_width="match_parent"
+                android:textSize="@dimen/textsub"
+                android:layout_height="40dp" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:baselineAligned="false"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/textsub"
+                android:text="Operational Team"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="1" >
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/textsub"
+                android:textAlignment="textEnd"
+                android:text="Plan"/>
+
+
+            <EditText
+                android:id="@+id/ops_team_plan"
+                android:hint="@null"
+                android:inputType="number"
+                android:textAlignment="textEnd"
+                android:layout_width="match_parent"
+                android:textSize="@dimen/textsub"
+                android:layout_height="40dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+            <TextView
+                android:textSize="@dimen/textsub"
+                android:textAlignment="textEnd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Actual"/>
+
+
+            <EditText
+                android:inputType="number"
+                android:hint="@null"
+                android:id="@+id/ops_team_actual"
+                android:textAlignment="textEnd"
+                android:layout_width="match_parent"
+                android:textSize="@dimen/textsub"
+                android:layout_height="40dp" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:baselineAligned="false"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/textsub"
+                android:text="Landscape Team"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="1" >
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/textsub"
+                android:textAlignment="textEnd"
+                android:text="Plan"/>
+
+
+            <EditText
+                android:id="@+id/landscape_team_plan"
+                android:hint="@null"
+                android:inputType="number"
+                android:textAlignment="textEnd"
+                android:layout_width="match_parent"
+                android:textSize="@dimen/textsub"
+                android:layout_height="40dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+            <TextView
+                android:textSize="@dimen/textsub"
+                android:textAlignment="textEnd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Actual"/>
+
+
+            <EditText
+                android:inputType="number"
+                android:hint="@null"
+                android:id="@+id/landscape_team_actual"
+                android:textAlignment="textEnd"
+                android:layout_width="match_parent"
+                android:textSize="@dimen/textsub"
+                android:layout_height="40dp" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:baselineAligned="false"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/textsub"
+                android:text="Terminix dan AAG Team"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="1" >
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/textsub"
+                android:textAlignment="textEnd"
+                android:text="Plan"/>
+
+
+            <EditText
+                android:id="@+id/terminix_team_plan"
+                android:hint="@null"
+                android:inputType="number"
+                android:textAlignment="textEnd"
+                android:layout_width="match_parent"
+                android:textSize="@dimen/textsub"
+                android:layout_height="40dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+            <TextView
+                android:textSize="@dimen/textsub"
+                android:textAlignment="textEnd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Actual"/>
+
+
+            <EditText
+                android:inputType="number"
+                android:hint="@null"
+                android:id="@+id/terminix_team_actual"
+                android:textAlignment="textEnd"
+                android:layout_width="match_parent"
+                android:textSize="@dimen/textsub"
+                android:layout_height="40dp" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1.5dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="6dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/divider" />
+
+
+</LinearLayout>
+
+</ScrollView>
+
+</android.support.design.widget.CoordinatorLayout>

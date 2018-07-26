@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">DeMOS</string>
+    <string name="textToolbar">DeMOS Kuningan City</string>
+    <string name="textResult">Result :</string>
+    <string name="pick_image_intent_text">Choose an image</string>
+    <string name="toolbar_edit_mod">Edit Report MOD</string>
+    <string name="toolbar_add_mod">Tambah Report MOD</string>
+    <string name="toolbar_view_defect">View Defect</string>
+    <string name="toolbar_edit_seputar">Edit Seputar</string>
+    <string name="toolbar_edit_item">Edit Item</string>
+    <string name="toolbar_tambah_seputar">Tambah Seputar</string>
+    <string name="toolbar_tambah_item">Tambah Item</string>
+    <string name="toolbar_history_mod">List History MOD</string>
+    <string name="toolbar_defect_harian">List Defect Harian</string>
+    <string name="toolbar_follow_up_defect">Follow up Defect</string>
+    <string name="toolbar_informasi_tambahan">Informasi Tambahan</string>
+    <string name="toolbar_list_defect">List Defect</string>
+    <string name="btnSubmit">Submit</string>
+    <string name="btnLanjut">Lanjut</string>
+    <string name="toolbar_preview_report_mod">Preview Report MOD</string>
+    <string name="ganti_photo">Ganti Photo</string>
+    <string name="browse_photo">Browse Photo</string>
+    <string name="tambah_status_defect">Tambah Status Defect</string>
+    <string name="edit">Edit</string>
+    <string name="preview">Preview</string>
+    <string name="tambah_seputar">Tambah Seputar</string>
+    <string name="hapus">Hapus</string>
+    <string name="send_report">Send Report</string>
+    <string name="set_target">Set Target</string>
+    <string name="view">View</string>
+    <string name="forward">Forward</string>
+    <string name="follow_up">Follow Up</string>
+    <string name="report_defect">Report Defect</string>
+    <string name="btnPreview">Preview</string>
+
+    <string name="home">Home</string>
+    <string name="defect">Defect</string>
+    <string name="man_on_duty">Man On Duty</string>
+    <string name="keluar">Log Out</string>
+    <string name="qrcode">QRCode</string>
+
+    <string name="forward_defect">Forward Defect</string>
+    <string name="btnForward">Forward</string>
+
+    <string name="alert_dialog_title">Please Select</string>
+    <string name="positive_button_text">Select</string>
+    <string name="negative_button_text">Cancel</string>
+    <string name="ganti_passwowrd">Ganti Password</string>
+
+    <string name="tambah_item">Tambah Item Defect</string>
+</resources>

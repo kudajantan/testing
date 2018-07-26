@@ -1,0 +1,153 @@
+-- Merging decision tree log ---
+manifest
+ADDED from F:\MASTER\demos\android-ngn-stack\AndroidManifest.xml:2:1-41:12
+INJECTED from F:\MASTER\demos\android-ngn-stack\AndroidManifest.xml:2:1-41:12
+INJECTED from F:\MASTER\demos\android-ngn-stack\AndroidManifest.xml:2:1-41:12
+INJECTED from F:\MASTER\demos\android-ngn-stack\AndroidManifest.xml:2:1-41:12
+INJECTED from F:\MASTER\demos\android-ngn-stack\AndroidManifest.xml:2:1-41:12
+INJECTED from F:\MASTER\demos\android-ngn-stack\AndroidManifest.xml:2:1-41:12
+INJECTED from F:\MASTER\demos\android-ngn-stack\AndroidManifest.xml:2:1-41:12
+	package
+		ADDED from F:\MASTER\demos\android-ngn-stack\AndroidManifest.xml:3:7-33
+		INJECTED from F:\MASTER\demos\android-ngn-stack\AndroidManifest.xml
+		INJECTED from F:\MASTER\demos\android-ngn-stack\AndroidManifest.xml
+	android:versionName
+		ADDED from F:\MASTER\demos\android-ngn-stack\AndroidManifest.xml:5:7-32
+		INJECTED from F:\MASTER\demos\android-ngn-stack\AndroidManifest.xml
+		INJECTED from F:\MASTER\demos\android-ngn-stack\AndroidManifest.xml
+	xmlns:android
+		ADDED from F:\MASTER\demos\android-ngn-stack\AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from F:\MASTER\demos\android-ngn-stack\AndroidManifest.xml:4:7-30
+		INJECTED from F:\MASTER\demos\android-ngn-stack\AndroidManifest.xml
+		INJECTED from F:\MASTER\demos\android-ngn-stack\AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from F:\MASTER\demos\android-ngn-stack\AndroidManifest.xml:7:2-64
+	android:name
+		ADDED from F:\MASTER\demos\android-ngn-stack\AndroidManifest.xml:7:19-61
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from F:\MASTER\demos\android-ngn-stack\AndroidManifest.xml:8:2-73
+	android:name
+		ADDED from F:\MASTER\demos\android-ngn-stack\AndroidManifest.xml:8:19-70
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from F:\MASTER\demos\android-ngn-stack\AndroidManifest.xml:9:2-76
+	android:name
+		ADDED from F:\MASTER\demos\android-ngn-stack\AndroidManifest.xml:9:19-73
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from F:\MASTER\demos\android-ngn-stack\AndroidManifest.xml:10:2-73
+	android:name
+		ADDED from F:\MASTER\demos\android-ngn-stack\AndroidManifest.xml:10:19-70
+uses-permission#android.permission.CHANGE_NETWORK_STATE
+ADDED from F:\MASTER\demos\android-ngn-stack\AndroidManifest.xml:11:2-76
+	android:name
+		ADDED from F:\MASTER\demos\android-ngn-stack\AndroidManifest.xml:11:19-73
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from F:\MASTER\demos\android-ngn-stack\AndroidManifest.xml:13:2-78
+	android:name
+		ADDED from F:\MASTER\demos\android-ngn-stack\AndroidManifest.xml:13:19-75
+uses-permission#android.permission.CAMERA
+ADDED from F:\MASTER\demos\android-ngn-stack\AndroidManifest.xml:14:2-62
+	android:name
+		ADDED from F:\MASTER\demos\android-ngn-stack\AndroidManifest.xml:14:19-59
+uses-permission#android.permission.WAKE_LOCK
+ADDED from F:\MASTER\demos\android-ngn-stack\AndroidManifest.xml:15:2-65
+	android:name
+		ADDED from F:\MASTER\demos\android-ngn-stack\AndroidManifest.xml:15:19-62
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from F:\MASTER\demos\android-ngn-stack\AndroidManifest.xml:16:2-68
+	android:name
+		ADDED from F:\MASTER\demos\android-ngn-stack\AndroidManifest.xml:16:19-65
+uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
+ADDED from F:\MASTER\demos\android-ngn-stack\AndroidManifest.xml:17:2-77
+	android:name
+		ADDED from F:\MASTER\demos\android-ngn-stack\AndroidManifest.xml:17:19-74
+uses-permission#android.permission.VIBRATE
+ADDED from F:\MASTER\demos\android-ngn-stack\AndroidManifest.xml:18:2-63
+	android:name
+		ADDED from F:\MASTER\demos\android-ngn-stack\AndroidManifest.xml:18:19-60
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from F:\MASTER\demos\android-ngn-stack\AndroidManifest.xml:19:2-78
+	android:name
+		ADDED from F:\MASTER\demos\android-ngn-stack\AndroidManifest.xml:19:19-75
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from F:\MASTER\demos\android-ngn-stack\AndroidManifest.xml:21:2-70
+	android:name
+		ADDED from F:\MASTER\demos\android-ngn-stack\AndroidManifest.xml:21:19-67
+uses-permission#android.permission.DISABLE_KEYGUARD
+ADDED from F:\MASTER\demos\android-ngn-stack\AndroidManifest.xml:22:2-72
+	android:name
+		ADDED from F:\MASTER\demos\android-ngn-stack\AndroidManifest.xml:22:19-69
+uses-permission#android.permission.READ_CONTACTS
+ADDED from F:\MASTER\demos\android-ngn-stack\AndroidManifest.xml:23:2-68
+	android:name
+		ADDED from F:\MASTER\demos\android-ngn-stack\AndroidManifest.xml:23:19-66
+uses-permission#android.permission.WRITE_CONTACTS
+ADDED from F:\MASTER\demos\android-ngn-stack\AndroidManifest.xml:24:2-69
+	android:name
+		ADDED from F:\MASTER\demos\android-ngn-stack\AndroidManifest.xml:24:19-67
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from F:\MASTER\demos\android-ngn-stack\AndroidManifest.xml:25:2-72
+	android:name
+		ADDED from F:\MASTER\demos\android-ngn-stack\AndroidManifest.xml:25:19-69
+uses-permission#android.permission.PROCESS_OUTGOING_CALLS
+ADDED from F:\MASTER\demos\android-ngn-stack\AndroidManifest.xml:26:2-78
+	android:name
+		ADDED from F:\MASTER\demos\android-ngn-stack\AndroidManifest.xml:26:19-75
+uses-permission#android.permission.CALL_PHONE
+ADDED from F:\MASTER\demos\android-ngn-stack\AndroidManifest.xml:27:2-66
+	android:name
+		ADDED from F:\MASTER\demos\android-ngn-stack\AndroidManifest.xml:27:19-63
+uses-permission#android.permission.RAISED_THREAD_PRIORITY
+ADDED from F:\MASTER\demos\android-ngn-stack\AndroidManifest.xml:28:2-77
+	android:name
+		ADDED from F:\MASTER\demos\android-ngn-stack\AndroidManifest.xml:28:19-75
+uses-permission#android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS
+ADDED from F:\MASTER\demos\android-ngn-stack\AndroidManifest.xml:30:2-117
+	android:required
+		ADDED from F:\MASTER\demos\android-ngn-stack\AndroidManifest.xml:30:90-114
+	android:name
+		ADDED from F:\MASTER\demos\android-ngn-stack\AndroidManifest.xml:30:19-89
+uses-feature#0x00020000
+ADDED from F:\MASTER\demos\android-ngn-stack\AndroidManifest.xml:32:2-76
+	android:glEsVersion
+		ADDED from F:\MASTER\demos\android-ngn-stack\AndroidManifest.xml:32:16-48
+	android:required
+		ADDED from F:\MASTER\demos\android-ngn-stack\AndroidManifest.xml:32:50-74
+uses-feature#android.hardware.camera
+ADDED from F:\MASTER\demos\android-ngn-stack\AndroidManifest.xml:33:2-82
+	android:required
+		ADDED from F:\MASTER\demos\android-ngn-stack\AndroidManifest.xml:33:56-80
+	android:name
+		ADDED from F:\MASTER\demos\android-ngn-stack\AndroidManifest.xml:33:16-54
+uses-feature#android.hardware.audio.low_latency
+ADDED from F:\MASTER\demos\android-ngn-stack\AndroidManifest.xml:34:2-92
+	android:required
+		ADDED from F:\MASTER\demos\android-ngn-stack\AndroidManifest.xml:34:66-90
+	android:name
+		ADDED from F:\MASTER\demos\android-ngn-stack\AndroidManifest.xml:34:16-65
+application
+ADDED from F:\MASTER\demos\android-ngn-stack\AndroidManifest.xml:37:5-39:19
+	android:label
+		ADDED from F:\MASTER\demos\android-ngn-stack\AndroidManifest.xml:37:78-110
+	android:icon
+		ADDED from F:\MASTER\demos\android-ngn-stack\AndroidManifest.xml:37:18-47
+	android:name
+		ADDED from F:\MASTER\demos\android-ngn-stack\AndroidManifest.xml:37:48-77
+service#org.doubango.ngn.NgnNativeService
+ADDED from F:\MASTER\demos\android-ngn-stack\AndroidManifest.xml:38:6-48
+	android:name
+		ADDED from F:\MASTER\demos\android-ngn-stack\AndroidManifest.xml:38:15-46
+uses-sdk
+INJECTED from F:\MASTER\demos\android-ngn-stack\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from F:\MASTER\demos\android-ngn-stack\AndroidManifest.xml
+INJECTED from F:\MASTER\demos\android-ngn-stack\AndroidManifest.xml
+INJECTED from F:\MASTER\demos\android-ngn-stack\AndroidManifest.xml
+INJECTED from F:\MASTER\demos\android-ngn-stack\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from F:\MASTER\demos\android-ngn-stack\AndroidManifest.xml
+		ADDED from F:\MASTER\demos\android-ngn-stack\AndroidManifest.xml
+		INJECTED from F:\MASTER\demos\android-ngn-stack\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from F:\MASTER\demos\android-ngn-stack\AndroidManifest.xml
+		ADDED from F:\MASTER\demos\android-ngn-stack\AndroidManifest.xml
+		INJECTED from F:\MASTER\demos\android-ngn-stack\AndroidManifest.xml

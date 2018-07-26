@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2962FF</color>
+    <color name="colorPrimaryDark">#0039CB</color>
+    <color name="colorAccent">#FF4081</color>
+
+
+    <color name="rippelColor">#28a7fc</color>
+
+    <color name="white">#ffffff</color>
+
+
+    <color name="black">#000000</color>
+    <color name="light_text">#c3c4c4</color>
+    <color name="medium_text">#7e7e7e</color>
+    <color name="light_grey">#ECEFF1</color>
+
+    <color name="light_white">#d5d5d5</color>
+    <color name="smoke_white">#e5e5e5</color>
+    <color name="dull_white">#F5F5F5</color>
+
+    <color name="bottom_bar_text_color">#6b6d7b</color>
+
+    <color name="tab_select_txt">#ad9614</color>
+    <color name="tab_unselect_txt">#000000</color>
+    <color name="bottom_bar">#4c4c4c</color>
+    <color name="dark_white">#efeeec</color>
+    <color name="yellow">#FFC107</color>
+    <color name="light_blue">#d7effe</color>
+    <color name="dark_blue">#28a7fc</color>
+    <color name="selected_tab_color">#0096ff</color>
+    <color name="unselected_tab">#acacac</color>
+    <color name="dark_text">#4d4d4d</color>
+
+
+    <color name="colorCrimson">#9e1943</color>
+    <color name="colorCrimsonDark">#721230</color>
+    <color name="colorLime">#8CBF26</color>
+    <color name="colorBlue">#1ba1e2</color>
+    <color name="colorBlueDark">#1681b4</color>
+    <color name="colorGreen">#5fb435</color>
+    <color name="colorEmerald">#008A00</color>
+    <color name="colorEmeraldDark">#005700</color>
+    <color name="colorIndigo">#6A00FF</color>
+    <color name="colorCyan">#1BA1E2</color>
+    <color name="colorOrange">#F09609</color>
+    <color name="colorOrangeDua">#fe6700</color>
+    <color name="colorBrown">#825A2C</color>
+    <color name="colorPurple">#A200FF</color>
+    <color name="colorPurpleDark">#8200cc</color>
+    <color name="colorTeal">#00aba9</color>
+    <color name="colorRed">#e51400</color>
+    <color name="colorAmber">#F0A30A</color>
+    <color name="colorTaupe">#87794E</color>
+    <color name="colorOlive">#6D8764</color>
+    <color name="colorMagenta">#D80073</color>
+    <color name="colorSteel">#647687</color>
+    <color name="colorSkyBlue">#0A5BC4</color>
+    <color name="colorSkyBlueDark">#084493</color>
+    <color name="colorMauve">#76608A</color>
+    <color name="colorBG">#F50057</color>
+    <color name="colorBGDark">#c20045</color>
+    <color name="colorHover">#333</color>
+
+    <color name="divider">#e1e4e6</color>
+    <color name="album_title">#4c4c4c</color>
+    <color name="tealCerah">#67e1ff</color>
+
+    <color name="gray">#f2f3f5</color>
+    <color name="bg_glass">#88ffffff</color>
+    <color name="bottom_item">#444</color>
+    <color name="bottom_item_alt">#000</color>
+    <color name="stroke">#d8dbe2</color>
+    <color name="sub_text">#98a1b3</color>
+    <color name="text">#515b6e</color>
+    <color name="title">#404548</color>
+    <color name="top_item">#6cc</color>
+    <color name="transparent">#00000000</color>
+    <color name="qty">#959698</color>
+    <color name="red">#e12227</color>
+    <color name="dark_green">#48a846</color>
+	
+	<color name="from">#000000</color>
+    <color name="subject">#111111</color>
+    <color name="timestamp">#4285f4</color>
+    <color name="message">#7a7a7a</color>
+    <color name="icon_tint_normal">#7a7a7a</color>
+    <color name="icon_tint_selected">#fed776</color>
+    <color name="row_activated">#e0e0e0</color>
+    <color name="bg_action_mode">#757575</color>
+    <color name="bg_circle_default">#666666</color>
+
+
+</resources>

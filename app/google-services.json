@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "234001121728",
+    "firebase_url": "https://com-seseorang-demos.firebaseio.com",
+    "project_id": "com-seseorang-demos",
+    "storage_bucket": "com-seseorang-demos.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:234001121728:android:3a51f2b5775a5500",
+        "android_client_info": {
+          "package_name": "com.seseorang.demos"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "234001121728-ps5tnvceebvq6jlhgordmnv705r7cdo4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDgHSU7bVnZ9LZNV6blTxGUD0LxWtSub1o"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

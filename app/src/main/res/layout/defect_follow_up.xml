@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <include
+            layout="@layout/toolbar_caption_with_button"
+            android:layout_width="match_parent"
+            android:layout_height="?android:attr/actionBarSize"
+            android:background="@color/white" />
+
+
+    </android.support.design.widget.AppBarLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        android:layout_marginTop="?android:attr/actionBarSize"
+        android:layout_height="match_parent">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1.5dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="6dp"
+        android:background="@color/divider" />
+
+    </RelativeLayout>
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:padding="10dp"
+        android:layout_marginTop="65dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <Button
+        android:id="@+id/browse_photo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_report"
+        android:textColor="@color/black"
+        android:text="Browse Photo" />
+
+    <ImageView
+        android:id="@+id/photo_mod"
+        android:layout_marginTop="6dp"
+        android:contentDescription="@null"
+        android:layout_width="match_parent"
+        android:src="@android:drawable/ic_menu_gallery"
+        android:layout_height="198dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/textsub"
+        android:text="Status :"/>
+
+    <Spinner
+        android:id="@+id/spinner_status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:paddingEnd="10dp"
+        android:paddingStart="6dip"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        style="@style/Widget.AppCompat.Spinner.Underlined" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/textsub"
+        android:layout_marginTop="10dp"
+        android:text="Keterangan :"/>
+
+        <android.support.v4.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:scrollbars="vertical"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="20dp"
+            android:layout_height="130dp">
+
+            <com.github.irshulx.Editor
+                android:layout_width="match_parent"
+                android:id="@+id/keterangan"
+                app:render_type="Editor"
+                app:placeholder="Start writing here..."
+                android:paddingTop="10dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:layout_height="wrap_content"
+                android:paddingBottom="100dp" />
+
+        </android.support.v4.widget.NestedScrollView>
+    </LinearLayout>
+
+</ScrollView>
+
+</android.support.design.widget.CoordinatorLayout>

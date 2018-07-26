@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:title="@string/home"
+            android:icon="@drawable/ic_home"
+            app:showAsAction="never"/>
+        <item
+            android:id="@+id/nav_defect"
+            android:title="@string/defect"
+            android:icon="@drawable/ic_defect"
+            app:showAsAction="never"/>
+
+        <item
+            android:id="@+id/nav_report_defect"
+            android:title="Report Defect"
+            android:icon="@drawable/ic_pdf"
+            app:showAsAction="never"/>
+
+        <item
+            android:id="@+id/nav_man_on_duty"
+            android:icon="@drawable/ic_mod"
+            android:title="@string/man_on_duty"
+            app:showAsAction="never"/>
+
+        <item
+            android:id="@+id/nav_defect_harian"
+            android:title="Defect Harian"
+            android:icon="@drawable/ic_daily"
+            app:showAsAction="never"/>
+
+        <item
+            android:id="@+id/nav_ganti_pwd"
+            android:icon="@drawable/ic_pwd"
+            android:title="Ganti Password"
+            app:showAsAction="never"/>
+
+        <item
+            android:id="@+id/nav_keluar"
+            android:icon="@drawable/ic_off"
+            android:title="@string/keluar"
+            app:showAsAction="never"/>
+
+        <item
+            android:id="@+id/nav_qrcode"
+            android:title="@string/qrcode"
+            android:visible="false"
+            app:showAsAction="never"/>
+
+
+    </group>
+
+
+</menu>

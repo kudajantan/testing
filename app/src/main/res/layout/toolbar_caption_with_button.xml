@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="?android:attr/actionBarSize"
+    app:navigationIcon="?android:attr/homeAsUpIndicator"
+    android:theme="@style/AppTheme.PopupOverlay"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <com.seseorang.demos.utils.RippleView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imgBack"
+            android:contentDescription="@string/app_name"
+            android:layout_width="wrap_content"
+            android:paddingTop="8dp"
+            android:layout_marginStart="-10dp"
+            android:layout_marginEnd="10dp"
+            android:src="@android:drawable/ic_menu_save"
+            app:rv_centered="true"
+            app:rv_rippleDuration="130"
+            app:rv_color="@color/colorBG"
+            app:rv_type="rectangle"
+            android:visibility="gone"
+            android:layout_height="wrap_content" />
+        </com.seseorang.demos.utils.RippleView>
+
+        <TextView
+            android:id="@+id/title_toolbar"
+            android:layout_width="0dp"
+            android:text="@string/home"
+            android:layout_gravity="center_vertical"
+            android:textSize="@dimen/text"
+            android:layout_weight="0.5"
+
+            android:textColor="@color/colorTeal"
+            android:layout_height="wrap_content" />
+
+        <com.seseorang.demos.utils.RippleView
+            android:id="@+id/rippleBtnSimpan"
+            android:layout_width="wrap_content"
+            android:gravity="center"
+            android:layout_margin="6dp"
+            app:rv_centered="true"
+            app:rv_rippleDuration="80"
+            app:rv_color="@color/colorBG"
+            app:rv_type="rectangle"
+            android:layout_height="35dp">
+
+            <ImageView
+                android:id="@+id/btnSimpan"
+                android:contentDescription="@string/app_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/btnSubmit"
+                android:layout_marginEnd="-30dp"
+                android:gravity="center"
+                android:src="@drawable/simpan_dua"
+                android:textSize="@dimen/large_text" />
+
+        </com.seseorang.demos.utils.RippleView>
+
+    </LinearLayout>
+
+
+</android.support.v7.widget.Toolbar>

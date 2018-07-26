@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/mnu_set_target"
+        android:orderInCategory="100"
+        android:title="@string/set_target" />
+
+    <item
+        android:id="@+id/mnu_view_defect"
+        android:orderInCategory="101"
+        android:title="@string/view" />
+
+    <item
+        android:id="@+id/mnu_follow_up"
+        android:orderInCategory="102"
+        android:title="@string/follow_up" />
+
+    <item
+        android:id="@+id/mnu_forward"
+        android:orderInCategory="103"
+        android:title="@string/forward" />
+
+</menu>

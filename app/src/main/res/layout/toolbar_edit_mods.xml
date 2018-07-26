@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="?android:attr/actionBarSize"
+    app:navigationIcon="?android:attr/homeAsUpIndicator"
+    android:theme="@style/AppTheme.PopupOverlay"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:text="Edit Report MOD"
+            android:layout_gravity="center_vertical"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_weight="0.5"
+            android:textColor="@color/colorEmerald"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btnLanjut"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:background="@drawable/shape_report"
+            android:padding="4dp"
+            android:text="Lanjut"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:gravity="center"
+            android:layout_marginEnd="6dp"
+            android:textColor="@color/black"
+            android:textSize="@dimen/large_text" />
+
+    </LinearLayout>
+
+
+</android.support.v7.widget.Toolbar>

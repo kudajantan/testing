@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <include
+            layout="@layout/toolbar_caption"
+            android:layout_width="match_parent"
+            android:layout_height="?android:attr/actionBarSize"
+            android:background="@color/white" />
+
+
+    </android.support.design.widget.AppBarLayout>
+
+
+
+<LinearLayout
+    android:id="@+id/DrawerLayout"
+    android:orientation="vertical"
+    android:layout_marginTop="?android:attr/actionBarSize"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1.5dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="6dp"
+        android:background="@color/divider" />
+
+
+    <TextView
+        android:id="@+id/date_textview"
+        tools:text="date goes here"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_width="match_parent"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/lv_defect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp" />
+    
+</LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>

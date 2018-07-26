@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.seseorang.demos">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-permission android:name="android.permission.VIBRATE"/>
+
+    <uses-feature android:name="android.hardware.camera" android:required="false" />
+    <uses-feature android:name="android.hardware.camera.autofocus"/>
+
+    <application
+        android:icon="@mipmap/logo_kc"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/logo_kc"
+        android:supportsRtl="true"
+        tools:replace="android:icon,android:theme"
+        android:theme="@style/AppTheme.Splash"
+        tools:ignore="GoogleAppIndexingWarning"
+        android:allowBackup="false">
+        <activity android:name="login.SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".MainActivity" android:theme="@style/AppTheme.NoActionBar" android:configChanges="orientation|screenSize|keyboardHidden" />
+        <activity android:name="mods.activity.mods_activity" android:theme="@style/AppTheme.NoActionBar" android:configChanges="orientation|screenSize|keyboardHidden" />
+        <activity android:name="qrcode.QRCodeActivity" android:theme="@style/AppTheme" android:configChanges="orientation|screenSize|keyboardHidden" />
+        <activity android:name="mods.activity.mods_add" android:theme="@style/AppTheme.NoActionBar" android:configChanges="orientation|screenSize|keyboardHidden" />
+        <activity android:name="mods.activity.mods_edit" android:theme="@style/AppTheme.NoActionBar" android:configChanges="orientation|screenSize|keyboardHidden" />
+        <activity android:name="login.LoginActivity" android:theme="@style/AppTheme.NoActionBar" android:configChanges="orientation|screenSize|keyboardHidden" />
+        <activity android:name="login.GantiPassword" android:theme="@style/AppTheme.NoActionBar" android:configChanges="orientation|screenSize|keyboardHidden" />
+        <activity android:name="defect.DefectActivity" android:theme="@style/AppTheme.NoActionBar" android:configChanges="orientation|screenSize|keyboardHidden" />
+        <activity android:name="mods.activity.mods_add_informasi" android:theme="@style/AppTheme.NoActionBar" android:configChanges="orientation|screenSize|keyboardHidden" />
+        <activity android:name="mods.activity.mods_add_seputar" android:theme="@style/AppTheme.NoActionBar" android:configChanges="orientation|screenSize|keyboardHidden" />
+        <activity android:name="defect.DefectView" android:theme="@style/AppTheme.NoActionBar" android:configChanges="orientation|screenSize|keyboardHidden" />
+        <activity android:name="defect.DefectFollowup" android:theme="@style/AppTheme.NoActionBar" android:configChanges="orientation|screenSize|keyboardHidden" />
+        <activity android:name="defect.DefectForward" android:theme="@style/AppTheme.NoActionBar" android:configChanges="orientation|screenSize|keyboardHidden" />
+        <activity android:name="defect.DefectReport" android:theme="@style/AppTheme.NoActionBar" android:configChanges="orientation|screenSize|keyboardHidden" />
+        <activity android:name="mods.activity.mods_edit_seputar" android:theme="@style/AppTheme.NoActionBar" android:configChanges="orientation|screenSize|keyboardHidden" />
+
+        <activity android:name="harian.activity.harian_main" android:theme="@style/AppTheme.NoActionBar" android:configChanges="orientation|screenSize|keyboardHidden" />
+        <activity android:name="harian.activity.harian_add_item" android:theme="@style/AppTheme.NoActionBar" android:configChanges="orientation|screenSize|keyboardHidden" />
+        <activity android:name="harian.activity.harian_add" android:theme="@style/AppTheme.NoActionBar" android:configChanges="orientation|screenSize|keyboardHidden" />
+
+        <activity android:name="defect.DefectNotif"  android:theme="@style/AppTheme.NoActionBar" android:configChanges="orientation|screenSize|keyboardHidden">
+            <intent-filter>
+                <action android:name="com.seseorang.demos_NOTIF_DEFECT" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+
+        <service android:name=".notif.MyFirebaseMessagingService" android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+
+        <service android:name=".notif.MyFirebaseInstanceIDService" android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT"/>
+            </intent-filter>
+        </service>
+
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_path" />
+        </provider>
+
+    </application>
+
+</manifest>

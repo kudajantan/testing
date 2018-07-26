@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="card_text">13dp</dimen>
+    <dimen name="card_textsub">11dp</dimen>
+    <dimen name="cat_icon">29dp</dimen>
+    <dimen name="categories">11dp</dimen>
+    <dimen name="design_bottom_sheet_modal_peek_height">256dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="marginleft_right">16dp</dimen>
+    <dimen name="menu_layoutpading">17dp</dimen>
+    <dimen name="menu_layouttopmargin">10dp</dimen>
+    <dimen name="menu_text">15dp</dimen>
+    <dimen name="menu_textpading">12dp</dimen>
+    <dimen name="menucat_imgtopmargin">11dp</dimen>
+    <dimen name="page_margin">16dp</dimen>
+    <dimen name="sticky_height">100dp</dimen>
+    <dimen name="sub_text">11dp</dimen>
+    <dimen name="text">16sp</dimen>
+    <dimen name="text_editor">12sp</dimen>
+    <dimen name="text18">18sp</dimen>
+    <dimen name="text_subtitle">13dp</dimen>
+    <dimen name="text_title">16dp</dimen>
+    <dimen name="textlist">16dp</dimen>
+    <dimen name="textsub">16sp</dimen>
+    <dimen name="textsub2">12dp</dimen>
+    <dimen name="title">14.5dp</dimen>
+    <dimen name="padding_list_row">16dp</dimen>
+    <dimen name="messages_padding_left">72dp</dimen>
+    <dimen name="icon_width_height">40dp</dimen>
+    <dimen name="msg_text_primary">16sp</dimen>
+    <dimen name="msg_text_secondary">14sp</dimen>
+    <dimen name="icon_star">25dp</dimen>
+    <dimen name="icon_text">22dp</dimen>
+    <dimen name="timestamp">12dp</dimen>
+</resources>

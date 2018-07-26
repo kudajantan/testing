@@ -1144,6 +1144,6 @@ public class mods_add_seputar extends AppCompatActivity {
     @Override
     public void onBackPressed() {
         setResult(RESULT_CANCELED);
-        super.onBackPressed();
+        //super.onBackPressed();
     }
 }
